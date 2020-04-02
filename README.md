@@ -25,7 +25,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### Notes
 
-Describe any challenges encountered while building the app.
+There was an app crash problem when clicking on the detail views, so I tried to take a look into Logcat and found there was a NullPointerException in DetailActivity.java. I tried some solutions such as try-catch, string-valueof, if-else, and finally I solved the problem by simply correcting the typo from tvTitle to tvOverView.
 
 ## Open-source libraries used
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
@@ -53,7 +53,7 @@ Describe any challenges encountered while building the app.
 <img src="https://imgur.com/jgxXitB.gif" width=250><br>
 
 ### Notes
-In the middle of writing the code, the emulator did not run suddenly, so I reinstalled Android Studio and it worked.
+In the middle of writing the code, the emulator did not run suddenly. I solved the problem by reinstalling Android Studio and executed Clean Project and rebuilt it.
 
 ### Open-source libraries used
 
